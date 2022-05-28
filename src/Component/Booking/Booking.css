@@ -1,0 +1,50 @@
+.bookTime{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.bookTime h2{
+    color: rgb(7, 150, 252);
+}
+.card-text{
+    font-size:'30px';
+    /* font-family:'IBM Plex Mono',monospace; */
+}
+.data{
+    display: inline-block;
+    padding: 20px;
+   
+    
+}
+.book{
+    text-align: center;
+    margin-top: 50px;
+    
+}
+.mains{
+    background-color: #ffffff8f;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+.pops{
+    height: 400px;
+    width: 50%;
+    background-color: #e8e8e8e1;
+    position: absolute;
+    right: 25%;
+    top: 600px;
+   
+}
+.popups{
+    float: right;
+    border-bottom: 1px solid black;
+    padding: 10px 30px;
+    cursor: pointer;
+
+ 
+}
+.forms{
+    padding: 50px 10px;
+    
+}

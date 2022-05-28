@@ -1,0 +1,22 @@
+
+.form{
+  height: 800px;
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 40px;
+ 
+}
+.log{
+  padding: 70px 0;
+  margin: 0 auto;
+
+  
+}
+.log .bt{
+margin-left: 80px;
+}
+.new-user{
+  color: rgb(71, 71, 248);
+  cursor: pointer;
+}
+

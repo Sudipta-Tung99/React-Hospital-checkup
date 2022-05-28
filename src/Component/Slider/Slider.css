@@ -1,0 +1,108 @@
+.container{
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 40px 0;
+}
+.slider{
+    
+    width: 800px;
+    border: 2px solid #5D5D5D ;
+    box-shadow: 2px 2px 2px 2px;
+    z-index: -1;
+}
+.containt{
+    padding: 40px;
+    width:450px ;
+}
+.containt h2{
+    color:#0C8AFA ;
+    font-family:'Orelega One', cursive;
+    font-size: 45px;
+}
+.containt p{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   text-align: left;
+}
+ .btn{
+     
+     position:relative;
+    float: left;
+}
+@media (max-width: 1000px){
+    .container{
+        flex-direction: column;
+       flex: 100%;
+    }
+    .box{
+        flex-direction: column;
+        position: relative;
+        display: block;
+        align-items: center;
+        
+        
+       
+    }
+    .box .time{
+        padding: 10px;
+        align-items: center;
+    }
+   
+
+}
+.box{
+    display: flex;
+  justify-content: space-around;
+   
+    padding: 25px 0px;
+    
+    
+
+}
+.box .time{
+    box-shadow: 2px 2px 2px 2px #E8E8E8 ;
+    padding: 40px;
+    background-color: #69D7F5  ;
+    color: #ffff;
+    border: 1px solid rgb(152, 152, 152);
+    
+}
+.box .location{
+    box-shadow: 2px 2px 2px 2px #E8E8E8 ;
+    padding: 40px;
+    background-color: #5EEFFE  ;
+    color: #ffff;
+    border: 1px solid rgb(152, 152, 152);
+}
+.box .contract{
+    box-shadow: 2px 2px 2px 2px #E8E8E8 ;
+    padding: 40px;
+    background-color: #69D7F5  ;
+    color: #ffff;
+    border: 1px solid rgb(152, 152, 152);
+}
+.service{
+    display: flex;
+    margin: auto;
+    text-align: center;
+    padding: 60px ;
+    gap:80px;
+   
+
+}
+.service .service-1{
+    
+    width: 700px;
+}
+
+.service .service-1 h3{
+    text-align: center;
+   font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    color: #0b99a9;
+   
+}
+
+.contract h3{
+    text-decoration: none;
+}
